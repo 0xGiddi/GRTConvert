@@ -76,7 +76,7 @@ int main(int argc, char* argv[]) {
 		}
 		fwrite(chunk_ptr, sizeof(unsigned char), *(chunks_list+i+1), outputFile);
 	}
-	printf(" Done\nConvertion finished.\n");
+	printf(" Done\nConversion finished.\n");
 
 	free(chunks_list);
 	free(chunk_ptr);
